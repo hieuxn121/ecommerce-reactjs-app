@@ -1,0 +1,61 @@
+.cart {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.BTN {
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border-color: transparent;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+    background: #ab7a5f;
+    color: white;
+    border-radius: 0.25rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.receipt{
+    margin-top: 50px;
+    border: 1px solid #bcccdc;
+    border-radius: 3px;
+    width: 30%;
+    padding: 1.5rem 3rem;
+}
+.abc {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-bottom: 20px;
+}
+.loginButton {
+    display:flex ;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.loginButton button {
+    width: 30%;
+    margin-bottom: 70px;
+}
+.btnDel {
+    background-color: #bb2525;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 0.75rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnInDe button{
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    margin:0px 10px;
+}
+.fillCart {
+    min-height: calc(100vh - 10rem);
+    box-sizing: border-box;
+}

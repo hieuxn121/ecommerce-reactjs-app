@@ -1,0 +1,35 @@
+.btn {
+    text-transform: uppercase;
+    background: #ab7a5f;
+    color: #eaded7;
+    padding: .5rem .75rem;
+    letter-spacing: .1rem;
+    display: inline-block;
+    font-weight: 400;
+    transition: all .3s linear;
+    font-size: .875rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: .25rem;
+    border-color: transparent;
+    margin-bottom: 50px;
+}
+.info {
+    text-transform: capitalize;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+.info span {
+    font-weight: bold;
+}
+.btnCart {
+    margin:10px 0 30px 0;
+}
+.btnCart button{
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    margin:0px 10px;
+}
